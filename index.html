@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+<style>
+body{
+	background:#000;
+cursor:url('img/bia2.ico'),auto;
+}
+#can{
+	background:#FFF;
+}
+	#div1{
+		width:250px;
+		height:200px;
+		position: absolute;
+		top:108px;
+		left: 130px;
+		border: 2px solid #000000;;
+		display: block;
+	}
+	#div2 {
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		top: 50px;
+		text-align:center;
+	}
+#div3 {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 0px;
+	text-align:center;
+}
+
+
+#div4 {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 35px;
+	text-align:center;
+	display: none;
+}
+#div5{
+	position: absolute;
+	top:10px;
+	left: 10px;
+}
+	#div6{
+		position: absolute;
+		top:10px;
+		left: 65px;
+	}
+#div7{
+	position: absolute;
+	top:10px;
+	left: 90px;
+}
+</style>
+<script src="js/easeljs-0.8.2.min.js"></script>
+
+<script src="js/preloadjs-0.6.2.min.js"></script>
+<script src="js/soundjs-0.6.2.min.js"></script>
+<script src="js/game.js"></script>
+<script src="js/tweenjs-0.6.2.min.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+<body>
+<div id="div1"> <div id="div2"> <img id="img" src="img/an.jpg"><div id="div3" style="display: none"><img src="img/1.jpg"><img src="img/2.jpg"><img src="img/3.jpg"></div></div>
+	<div id="div4" ><img src="img/an2.jpg"></div></div>
+<div id="div5">分数:</div><div id="div6">0</div><div id="div7"> <span id="timeout"></span></div>
+<canvas id="can" width="500" height="400"></canvas>
+
+</body>
+</html>
